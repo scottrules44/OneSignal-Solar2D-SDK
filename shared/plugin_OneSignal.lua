@@ -4,7 +4,7 @@ local Library = require "CoronaLibrary"
 -- This is a lua shell that calls into native iOS and Android libraries.
 
 -- Create library
-local OneSignalObject = Library:new{ name='OneSignal', publisherId='REVERSE_PUBLISHER_URL' }
+local OneSignalObject = Library:new{ name='OneSignal', publisherId='' }
 
 -------------------------------------------------------------------------------
 -- BEGIN (Insert your implementation startine here)

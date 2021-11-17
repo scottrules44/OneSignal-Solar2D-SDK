@@ -3,10 +3,10 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'plugin_OneSignal' },
-		frameworks = { 'WebKit', 'UserNotifications' },
+		staticLibs = { 'plugin_library', },
+		frameworks = {},
 		frameworksOptional = {},
-		delegates = {"OneSignalCoronaDelegate"}
+		-- usesSwift = true,
 	},
 }
 
